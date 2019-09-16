@@ -48,6 +48,6 @@ export class ProdutoService {
   }
 
   remove(key){
-    return this.dbfire.object("produto/"+key).remove()
+    return this.dbfire.object("produtos/"+key).remove()
   }
 }
